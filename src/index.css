@@ -1,0 +1,53 @@
+ .h11{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border-bottom: 2px solid black;
+    margin-bottom:15px;
+    
+}
+  .h22{
+    margin:10px;
+    padding:15px;
+    background-color: white;
+    border-radius:15px;
+   
+} 
+.h22:hover{
+    background-color: aqua;
+    border-radius: 15px;
+    border: 3px solid gold;
+    cursor:pointer;
+}  
+
+.continer{ 
+    width:250px;
+    border:2px solid black;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding:15px;     
+    margin:15px;
+    
+} 
+.continer:hover{
+    box-shadow:  0 8px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}  
+.image-c{
+    width:240;
+    height: 130px;
+    
+}
+.Heading-c{
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+
+.container1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.cards{
+    border: 0px ;
+}
